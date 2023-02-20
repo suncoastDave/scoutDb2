@@ -15,7 +15,7 @@
 */
 
 Route::get('/', function () {
-    return Drug::search('phen')->get();
+    return Drug::search('cyclo')->get();
 });
 
 
