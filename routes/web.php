@@ -5,7 +5,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Web Route
+| Web Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -18,4 +18,7 @@ Route::get('/', function () {
     return Drug::search('phen')->get();
 });
 
+Route::get('/app', function () {
+    return view('app');
+});
 
