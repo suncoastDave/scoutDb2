@@ -9,7 +9,7 @@
           content="ie=edge">
     <title>Document</title></head>
 <body>
-<livewire:counter />
+<livewire:search-drugs />
 
 @livewireScripts
 </body>

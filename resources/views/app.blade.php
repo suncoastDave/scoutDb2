@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
+    @livewireStyles
 </head>
 <body class="container mx-auto">
 <h1 class="text-4xl text-blue-600 font-bold">
@@ -22,5 +23,7 @@
             type="submit">Search
     </button>
     </form>
+<livewire:counter/>
+@livewireScripts
 </body>
 </html>
