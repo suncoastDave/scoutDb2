@@ -11,6 +11,7 @@
 <body>
 <livewire:search-drugs />
 
+
 @livewireScripts
 </body>
 
