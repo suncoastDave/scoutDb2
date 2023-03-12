@@ -37,9 +37,6 @@
 
                 <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
             </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
-            </div>
         </nav>
         <!-- Mobile menu, show/hide based on menu open state. -->
         <div class="lg:hidden" role="dialog" aria-modal="true">
@@ -108,11 +105,11 @@
   }
   ```
 -->
-            <div>
+            <div class="mt-12">
                 <form action="#">
                     @csrf
                 <div class="mt-5">
-                    <input type="text" name="drug" id="drug" class="block content-center w-2/3 rounded-md border-0 py-1.5 lg:text-3xl text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Simvastatin">
+                    <input type="text" name="drug" id="drug" class="block w-full rounded-md border-0 py-1.5 lg:text-3xl text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Simvastatin">
                 </div>
                 </form>
             </div>
